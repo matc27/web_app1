@@ -33,4 +33,5 @@ st.text_input(label="Enter a todo:", placeholder="Add new todo...",
               on_change=add_todo, key="new_todo")                       # input box with on_change parameter which calls the add_todo function when user hits enter
 
 
+
 # st.session_state                                                      # to access the dictionary which stores the values of the input boxes and other widgets
